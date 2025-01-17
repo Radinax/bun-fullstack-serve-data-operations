@@ -1,0 +1,91 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Container Styles */
+div {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Todo List Styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+span {
+  flex-grow: 1;
+}
+
+button[type="button"] {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="button"]:hover {
+  background-color: #c82333;
+}
+
+/* Completed Todo Style */
+.completed {
+  text-decoration: line-through;
+  color: #666;
+}
